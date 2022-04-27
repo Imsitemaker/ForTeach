@@ -7,7 +7,7 @@ const upBtn = document.querySelector('.up-button'), //Получаем кноп�
     mainSlide = document.querySelector('.main-slide'), //Получаем значение слайдов для сайдбаров
     slidesCount = mainSlide.querySelectorAll('div').length; //Получаем количество слайдов
 
-let activeSlideIndex = 0;
+var activeSlideIndex = 0;
 
 sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
 
